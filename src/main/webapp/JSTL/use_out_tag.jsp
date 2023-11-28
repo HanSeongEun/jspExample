@@ -1,6 +1,7 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
 <%@ page import = "java.io.IOException, java.io.FileReader" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
 <html>
 <head><title>소스 보기</title></head>
 <body>

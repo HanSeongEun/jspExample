@@ -5,6 +5,7 @@
 <fmt:setBundle var="message" basename="resource.message" />
 
 <fmt:message bundle="${message}" key="TITLE" var="title"/>
+<!DOCTYPE html>
 <html>
 <head><title>${title}</title></head>
 <body>

@@ -1,6 +1,7 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
 <html>
 <head><title>numberFormat 태그 사용</title></head>
 <body>
@@ -16,6 +17,7 @@
 <br/>
 숫자: ${numberType}
 <br/>
-패턴: <fmt:formatNumber value="${price}" pattern="00000000.00"/>
+패턴: <fmt:formatNumber value="${price}" pattern="00000000.00"/><br/>
+	<fmt:formatNumber value="${price}" pattern="##,###,###.##"/>
 </body>
 </html>

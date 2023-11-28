@@ -8,6 +8,7 @@
 %>
 <c:set var="intArray" value="<%=new int[] { 1, 2, 3, 4, 5 }%>" />
 <c:set var="map" value="<%=mapData%>" />
+<!DOCTYPE html>
 <html>
 <head>
 <title>forEach 태그</title>
